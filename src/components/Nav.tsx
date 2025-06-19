@@ -166,7 +166,7 @@ const Nav: React.FC = () => {
 
         {/* Desktop Menu */}
         <ul className="hidden md:flex items-center space-x-3 text-white font-medium relative">
-          {["services", "Our Works", "about", "blog", "clients"].map(
+          {["services", "Our Works", "about", "blogs", "clients"].map(
             (section) => {
               const path =
                 section.toLowerCase() === "our works"
@@ -230,7 +230,7 @@ const Nav: React.FC = () => {
             </li>
             <li className="flex items-center gap-2">
               <FileText size={18} />
-              <Link to="/blog">
+              <Link to="/blogs">
                 <button>Blog</button>
               </Link>
             </li>

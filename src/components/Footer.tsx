@@ -107,11 +107,6 @@ function Footer() {
                     </li>
                   ))}
                 </ul>
-                <a href="#">
-                  <button className="mt-4 text-[var(--primary-color)]">
-                    View more{" "}
-                  </button>
-                </a>
               </div>
               {/* Contact Info */}
               <div>

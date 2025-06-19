@@ -28,6 +28,8 @@ import PublicRelation from "./pages/services/PublicRelation";
 import InfluencerMarketing from "./pages/services/InfluencerMarketing";
 import OnlineReputationManagement from "./pages/services/OnlineReputationManagement";
 import GallerySection from "./pages/gallery";
+import About from "./pages/About";
+import Blogs from "./pages/Blogs";
 
 export default function App() {
   return (
@@ -37,6 +39,8 @@ export default function App() {
         <Route path="/" element={<Landing />} />
         <Route path="/services" element={<Services />} />
         <Route path="/our-works" element={<GallerySection />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/blogs" element={<Blogs />} />
         <Route path="/services/search-engine-optimization" element={<Seo />} />
         <Route
           path="/services/social-media-marketing"
