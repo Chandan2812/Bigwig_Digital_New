@@ -124,7 +124,7 @@ function Seo() {
       </section>
 
       <section className="bg-white dark:bg-black py-12 px-6 md:px-12">
-        <div className="w-5/6 mx-auto">
+        <div className="w-11/12 md:w-5/6 mx-auto">
           {/* Heading */}
           <div className="mb-10 text-center">
             <h2 className="text-3xl md:text-4xl font-bold text-[var(--primary-color)]">
@@ -179,7 +179,7 @@ function Seo() {
       </section>
 
       <section className="bg-white  py-12 px-4">
-        <div className="w-5/6 mx-auto space-y-10">
+        <div className="w-11/12 md:w-5/6 mx-auto space-y-10">
           {/* Heading */}
           <div className="text-center space-y-4">
             <h2 className="text-3xl md:text-4xl font-bold text-[var(--primary-color)]">
@@ -279,7 +279,7 @@ function Seo() {
       </section>
 
       <section className="bg-white dark:bg-black py-12 px-4">
-        <div className="w-5/6 mx-auto space-y-12">
+        <div className="w-11/12 md:w-5/6 mx-auto space-y-12">
           <h2 className="text-3xl md:text-4xl font-bold text-center text-[var(--primary-color)]">
             All in One SEO Services Under One Roof
           </h2>

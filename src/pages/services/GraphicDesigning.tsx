@@ -96,8 +96,8 @@ function GraphicDesigning() {
           </div>
         </div>
       </section>
-      <section className="bg-white py-12 px-4">
-        <div className="w-5/6 mx-auto space-y-12">
+      <section className="bg-white py-12">
+        <div className="w-11/12 md:w-5/6 mx-auto space-y-12">
           <div className="text-center space-y-4">
             <h2 className="text-2xl md:text-4xl md:font-bold font-semibold text-[var(--primary-color)]">
               A Creative Graphic Design Agency In Delhi, NCR
@@ -238,8 +238,8 @@ function GraphicDesigning() {
           </div>
         </div>
       </section>
-      <section className="bg-white py-12 px-4 md:px-10">
-        <div className="w-5/6 mx-auto">
+      <section className="bg-white py-12 ">
+        <div className="w-11/12 md:w-5/6 mx-auto">
           <div className="flex justify-center">
             <h2 className="text-2xl md:text-4xl md:font-bold font-semibold text-[var(--primary-color)] mb-6 text-center max-w-3xl">
               Why Is Professional Graphic Design Essential for Your Business?

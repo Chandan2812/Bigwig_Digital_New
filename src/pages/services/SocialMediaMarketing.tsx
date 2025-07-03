@@ -123,14 +123,14 @@ function SocialMediaMarketing() {
         </div>
       </section>
 
-      <section className="py-12 px-4 space-y-10 text-black dark:text-white">
+      <section className="py-12  space-y-10 text-black dark:text-white">
         {/* Section Heading */}
         <h2 className="text-3xl md:text-4xl font-bold text-center text-[var(--primary-color)]">
           Social Media Marketing Agency in Delhi
         </h2>
 
         {/* Two-column Layout */}
-        <div className="w-5/6 grid md:grid-cols-2 gap-10 items-start mx-auto">
+        <div className="w-11/12 md:w-5/6 grid md:grid-cols-2 gap-10 items-start mx-auto">
           {/* Left Content */}
           <div className="space-y-6 text-md leading-relaxed">
             <p>
@@ -189,13 +189,13 @@ function SocialMediaMarketing() {
         </div>
       </section>
 
-      <section className="py-12 px-4 bg-white  text-black ">
+      <section className="py-12 bg-white  text-black ">
         {/* Section Heading */}
         <h2 className="text-3xl md:text-4xl font-bold text-center text-[var(--primary-color)] mb-12">
           Our Paid Social Media Advertising Services
         </h2>
 
-        <div className="w-5/6 grid sm:grid-cols-2 lg:grid-cols-3 gap-8 mx-auto">
+        <div className="w-11/12 md:w-5/6 grid sm:grid-cols-2 lg:grid-cols-3 gap-8 mx-auto">
           {[
             {
               title: "Meta Ads",
@@ -241,7 +241,7 @@ function SocialMediaMarketing() {
       </section>
 
       {/* Why Choose Section */}
-      <section className="w-5/6 mx-auto py-12 space-y-10 px-4">
+      <section className="w-11/12 md:w-5/6 mx-auto py-12 space-y-10">
         <div className="space-y-4">
           <h2 className="text-3xl md:text-4xl font-bold text-[var(--primary-color)]">
             Why Choose BigWig Digital for Social Media Advertising?

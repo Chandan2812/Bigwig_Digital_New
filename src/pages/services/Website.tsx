@@ -197,7 +197,7 @@ function Website() {
         </div>
       </section>
 
-      <section className="py-12 mx-auto w-5/6 ">
+      <section className="py-12 mx-auto w-11/12 md:w-5/6 ">
         {/* Mobile View: Slider */}
         <div className="block lg:hidden">
           <Slider {...settings}>
@@ -260,7 +260,7 @@ function Website() {
       <WhyBigwig />
 
       <section className="bg-white text-black  py-12 px-4">
-        <div className="w-5/6 mx-auto md:text-center text-justify">
+        <div className="w-11/12 md:w-5/6 mx-auto md:text-center text-justify">
           <h2 className="text-3xl md:text-4xl font-semibold mb-6 leading-tight text-[var(--primary-color)] text-center">
             Let's Build Your Digital Future Together
           </h2>

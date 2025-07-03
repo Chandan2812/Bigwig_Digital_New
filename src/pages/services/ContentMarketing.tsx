@@ -118,8 +118,7 @@ function ContentMarketing() {
             <p
               className="text-2xl md:text-4xl font-semibold text-[#4e6cba]"
               style={{
-                textShadow: "0 2px 6px rgba(0,0,0,0.6)",
-                letterSpacing: "0.5px",
+                letterSpacing: "0.7px",
               }}
             >
               <span className="inline">Content That&nbsp;</span>
@@ -178,8 +177,8 @@ function ContentMarketing() {
           </div>
         </div>
       </section>
-      <section className="bg-white py-10 px-4">
-        <div className="w-5/6 mx-auto space-y-12">
+      <section className="bg-white py-10 ">
+        <div className="w-11/12 md:w-5/6 mx-auto space-y-12">
           <div className="text-center space-y-6">
             <h2 className="text-2xl md:text-4xl md:font-bold font-semibold text-[var(--primary-color)]">
               India’s Top Content Marketing Company Creating Content That Cuts
@@ -207,7 +206,7 @@ function ContentMarketing() {
           </div>
         </div>
       </section>
-      <section className="bg-[var(--primary-color)]/5  rounded-xl w-5/6 mx-auto py-12">
+      <section className="bg-[var(--primary-color)]/5  rounded-xl w-11/12 md:w-5/6 mx-auto py-12">
         <div className="space-y-6">
           <h2 className="text-2xl md:text-3xl md:font-bold font-semibold text-[var(--primary-color)] text-center">
             Why Content Marketing Is the Future of Digital Success.
@@ -272,7 +271,7 @@ function ContentMarketing() {
           </p>
         </div>
       </section>
-      <section className="bg-[var(--primary-color)]/5 rounded-xl w-5/6 mx-auto py-12">
+      <section className="bg-[var(--primary-color)]/5 rounded-xl w-11/12 md:w-5/6 mx-auto py-12">
         <div className="bg-[var(--primary-color)]/5 rounded-xl">
           <h3 className="text-2xl md:text-3xl md:font-bold font-semibold text-[var(--primary-color)] mb-8 text-center md:text-left">
             Our Core Content Marketing Services
@@ -311,7 +310,7 @@ function ContentMarketing() {
         </div>
       </section>
 
-      <section className="bg-[var(--primary-color)]/5  rounded-xl w-5/6 mx-auto py-12">
+      <section className="bg-[var(--primary-color)]/5  rounded-xl w-11/12 md:w-5/6 mx-auto py-12">
         <h3 className="text-2xl md:text-3xl md:font-bold font-semibold text-[var(--primary-color)] mb-4 text-center md:text-left">
           What Makes BigWig Digital a Top Content Marketing Agency in Delhi?
         </h3>
@@ -359,8 +358,8 @@ function ContentMarketing() {
           ))}
         </div>
       </section>
-      <section className="bg-white py-14 px-4 md:px-10">
-        <div className="w-5/6 mx-auto">
+      <section className="bg-white py-12">
+        <div className="w-11/12 md:w-5/6 mx-auto">
           {/* Heading */}
           <h3 className="text-3xl font-bold text-[var(--primary-color)] mb-6 text-center md:text-left">
             How We Build Your Content Engine

@@ -214,7 +214,7 @@ function PerformanceMarketing() {
       </section>
 
       <section className="bg-white text-black dark:text-white py-12">
-        <div className="w-5/6 mx-auto space-y-20">
+        <div className="w-11/12 md:w-5/6 mx-auto space-y-20">
           {/* Intro */}
           <div className="text-center space-y-6">
             <h2 className="text-3xl md:text-4xl font-bold text-[var(--primary-color)]">
@@ -342,7 +342,7 @@ function PerformanceMarketing() {
       </section>
 
       <section className="bg-gray py-12">
-        <div className="w-5/6 mx-auto">
+        <div className="w-11/12 md:w-5/6 mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center text-[var(--primary-color)]">
             Benefits of PPC Services for Your Business
           </h2>
@@ -384,7 +384,7 @@ function PerformanceMarketing() {
       <OurProcess />
       <WhyBigwig />
       <section className="py-12 bg-white text-black">
-        <div className="w-5/6 mx-auto space-y-10">
+        <div className="w-11/12 md:w-5/6 mx-auto space-y-10">
           <h2 className="text-3xl font-bold text-center text-[var(--primary-color)]">
             How is PPC Service Helpful for New Business?
           </h2>
