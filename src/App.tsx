@@ -32,6 +32,7 @@ import About from "./pages/About";
 import Blogs from "./pages/Blogs";
 import AdminLayout from "./pages/admin/AdminLayout";
 import AdminBlog from "./pages/admin/AdminBlogs";
+import BlogDetails from "./pages/BlogDetails";
 
 export default function App() {
   return (
@@ -43,6 +44,7 @@ export default function App() {
         <Route path="/our-works" element={<GallerySection />} />
         <Route path="/about" element={<About />} />
         <Route path="/blogs" element={<Blogs />} />
+        <Route path="/blogs/:slug" element={<BlogDetails />} />
         <Route path="/services/search-engine-optimization" element={<Seo />} />
         <Route
           path="/services/social-media-marketing"
