@@ -54,7 +54,7 @@ const Blog = () => {
     const fetchBlogPosts = async () => {
       try {
         const response = await axios.get(
-          `https://bigwigaibackend.onrender.com/api/v1/blog/viewblog`
+          `https://bigwigdigitalbackend.onrender.com/viewblog`
         );
         const sortedPosts = response.data.sort(
           (a: BlogPost, b: BlogPost) =>

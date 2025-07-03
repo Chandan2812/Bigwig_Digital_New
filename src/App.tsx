@@ -30,6 +30,8 @@ import OnlineReputationManagement from "./pages/services/OnlineReputationManagem
 import GallerySection from "./pages/gallery";
 import About from "./pages/About";
 import Blogs from "./pages/Blogs";
+import AdminLayout from "./pages/admin/AdminLayout";
+import AdminBlog from "./pages/admin/AdminBlogs";
 
 export default function App() {
   return (
@@ -105,6 +107,9 @@ export default function App() {
           element={<WebDesign />}
         />
         <Route path="/google-my-business" element={<GMB />} /> */}
+        <Route path="/admin" element={<AdminLayout />}>
+          <Route index element={<AdminBlog />} />
+        </Route>
       </Routes>
     </Router>
   );
