@@ -27,10 +27,13 @@ const AddBlog = ({
     slug: existingBlog?.slug || "",
     excerpt: existingBlog?.excerpt || "",
     content: existingBlog?.content || "",
+    prompt: "",
     author: existingBlog?.author || "",
     tags: existingBlog?.tags || "",
     coverImage: null as File | null,
   });
+
+  const [useAI, setUseAI] = useState(false);
   const [submitting, setSubmitting] = useState(false);
 
   useEffect(() => {
@@ -40,10 +43,12 @@ const AddBlog = ({
         slug: existingBlog.slug,
         excerpt: existingBlog.excerpt,
         content: existingBlog.content,
+        prompt: "",
         author: existingBlog.author,
         tags: existingBlog?.tags || "",
         coverImage: null,
       });
+      setUseAI(false);
     }
   }, [existingBlog]);
 
@@ -52,41 +57,49 @@ const AddBlog = ({
   ) => {
     const { name, value } = e.target;
 
-    // Auto-generate slug if the title is changing and the slug hasn't been manually modified
     if (name === "title") {
       const autoSlug = value
         .toLowerCase()
-        .replace(/[^a-z0-9\s]/g, "") // remove special chars
+        .replace(/[^a-z0-9\s]/g, "")
         .trim()
-        .replace(/\s+/g, "-"); // replace spaces with -
+        .replace(/\s+/g, "-");
 
       setFormData((prev) => ({
         ...prev,
         title: value,
-        slug: existingBlog ? prev.slug : autoSlug, // don't overwrite if editing
+        slug: existingBlog ? prev.slug : autoSlug,
       }));
     } else {
-      setFormData({ ...formData, [name]: value });
+      setFormData((prev) => ({ ...prev, [name]: value }));
     }
   };
 
   const handleImageChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     if (e.target.files) {
-      setFormData({ ...formData, coverImage: e.target.files[0] });
+      setFormData((prev) => ({ ...prev, coverImage: e.target.files![0] }));
     }
   };
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setSubmitting(true);
+
     const blogData = new FormData();
     blogData.append("title", formData.title);
     blogData.append("slug", formData.slug);
     blogData.append("excerpt", formData.excerpt);
-    blogData.append("content", formData.content);
     blogData.append("author", formData.author);
     blogData.append("tags", formData.tags);
-    if (formData.coverImage) blogData.append("coverImage", formData.coverImage);
+
+    if (useAI) {
+      blogData.append("prompt", formData.prompt);
+    } else {
+      blogData.append("content", formData.content);
+    }
+
+    if (formData.coverImage) {
+      blogData.append("coverImage", formData.coverImage);
+    }
 
     try {
       const method = existingBlog ? "PUT" : "POST";
@@ -152,14 +165,47 @@ const AddBlog = ({
             onChange={handleChange}
             required
           />
-          <textarea
-            name="content"
-            placeholder="Content"
-            className="w-full p-2 border h-32"
-            value={formData.content}
-            onChange={handleChange}
-            required
-          />
+
+          {/* AI toggle */}
+          <div className="flex items-center gap-4">
+            <label className="flex items-center gap-2">
+              <input
+                type="radio"
+                checked={!useAI}
+                onChange={() => setUseAI(false)}
+              />
+              Write Content Manually
+            </label>
+            <label className="flex items-center gap-2">
+              <input
+                type="radio"
+                checked={useAI}
+                onChange={() => setUseAI(true)}
+              />
+              Generate Using AI
+            </label>
+          </div>
+
+          {!useAI ? (
+            <textarea
+              name="content"
+              placeholder="Content (HTML supported)"
+              className="w-full p-2 border h-32"
+              value={formData.content}
+              onChange={handleChange}
+              required
+            />
+          ) : (
+            <textarea
+              name="prompt"
+              placeholder="Enter prompt to generate blog content"
+              className="w-full p-2 border h-32"
+              value={formData.prompt}
+              onChange={handleChange}
+              required
+            />
+          )}
+
           <input
             type="text"
             name="author"
@@ -184,6 +230,7 @@ const AddBlog = ({
             onChange={handleImageChange}
             required={!existingBlog}
           />
+
           <div className="flex justify-end gap-4">
             <button
               type="button"
