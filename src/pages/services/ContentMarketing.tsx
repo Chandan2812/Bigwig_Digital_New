@@ -5,6 +5,7 @@ import OurProcess from "../../components/OurProcess";
 import WhyBigwig from "../../components/WhyBigwig";
 import { Helmet } from "react-helmet";
 import Hero from "../../assets/Services hero/Content Marketing-1.jpg";
+import content from "../../assets/services/8.jpg";
 import Slider from "react-slick";
 
 function ContentMarketing() {
@@ -177,35 +178,48 @@ function ContentMarketing() {
           </div>
         </div>
       </section>
-      <section className="bg-white py-10 ">
-        <div className="w-11/12 md:w-5/6 mx-auto space-y-12">
-          <div className="text-center space-y-6">
-            <h2 className="text-2xl md:text-4xl md:font-bold font-semibold text-[var(--primary-color)]">
-              India’s Top Content Marketing Company Creating Content That Cuts
-              Through the Noise.{" "}
-            </h2>
-            <p className="text-lg  text-gray-600 text-justify ">
-              Content is now the foundation of your entire marketing plan and is
-              no longer optional in today's digital-first society. We as Delhi's
-              leading content marketing firm, BigWig Digital, do more than just
-              create content. We create digital experiences that engage your
-              audience directly, improve your search engine rankings, and
-              convert infrequent readers into devoted clients.
-            </p>
-            <p className="text-lg  text-gray-600 text-justify">
-              We provide informational, motivating, and influencing content,
-              ranging from in-depth blogs to witty social media updates. We help
-              brands stand out from the competition thanks to our in-depth
-              knowledge of both algorithms and human behavior.
-            </p>
-            <p className="text-lg  text-gray-600 text-justify ">
-              You've come to the perfect spot if you're searching for strategic
-              content marketing services in India that combine conversion,
-              clarity, and creativity.
-            </p>
+      <section className="bg-white py-10">
+        <div className="w-11/12 md:w-5/6 mx-auto">
+          <div className="grid md:grid-cols-2 gap-10 items-center">
+            {/* Left Content */}
+            <div className="space-y-6 text-center md:text-left">
+              <h2 className="text-2xl md:text-4xl md:font-bold font-semibold text-[var(--primary-color)]">
+                India’s Top Content Marketing Company Creating Content That Cuts
+                Through the Noise.
+              </h2>
+              <p className="text-lg text-gray-600 text-justify md:text-left">
+                Content is now the foundation of your entire marketing plan and
+                is no longer optional in today's digital-first society. We as
+                Delhi's leading content marketing firm, BigWig Digital, do more
+                than just create content. We create digital experiences that
+                engage your audience directly, improve your search engine
+                rankings, and convert infrequent readers into devoted clients.
+              </p>
+              <p className="text-lg text-gray-600 text-justify md:text-left">
+                We provide informational, motivating, and influencing content,
+                ranging from in-depth blogs to witty social media updates. We
+                help brands stand out from the competition thanks to our
+                in-depth knowledge of both algorithms and human behavior.
+              </p>
+              <p className="text-lg text-gray-600 text-justify md:text-left">
+                You've come to the perfect spot if you're searching for
+                strategic content marketing services in India that combine
+                conversion, clarity, and creativity.
+              </p>
+            </div>
+
+            {/* Right Image */}
+            <div>
+              <img
+                src={content}
+                alt="Content Marketing Services in Delhi"
+                className="w-full h-auto rounded-xl shadow-lg"
+              />
+            </div>
           </div>
         </div>
       </section>
+
       <section className="bg-[var(--primary-color)]/5  rounded-xl w-11/12 md:w-5/6 mx-auto py-12">
         <div className="space-y-6">
           <h2 className="text-2xl md:text-3xl md:font-bold font-semibold text-[var(--primary-color)] text-center">

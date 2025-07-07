@@ -2,6 +2,7 @@ import { TypeAnimation } from "react-type-animation";
 import Nav from "../../components/Nav";
 import { Helmet } from "react-helmet";
 import hero from "../../assets/Services hero/affiliate marketing.jpg";
+import affiliate from "../../assets/services/12.jpg";
 import OurProcess from "../../components/OurProcess";
 import WhyBigwig from "../../components/WhyBigwig";
 import Footer from "../../components/Footer";
@@ -11,7 +12,6 @@ import {
   FaGraduationCap,
   FaTshirt,
   FaMoneyCheckAlt,
-  FaBullseye,
 } from "react-icons/fa";
 
 import {
@@ -291,36 +291,42 @@ function AffiliateMarketing() {
           </div>
 
           {/* SECTION 2: Scalable & Transparent */}
-          <div className="grid md:grid-cols-2 gap-12 items-center">
-            <div className="space-y-6">
-              <h3 className="text-2xl font-semibold text-[var(--primary-color)]">
-                Scalable, Transparent and Results-First
-              </h3>
-              <p className="text-gray-700 text-lg">
-                Affiliate marketing is not a one-size-fits-all approach. Every
-                brand has a different audience, product, and price point. That’s
-                why our affiliate marketing services in Delhi are built on
-                personalization.
-              </p>
-              <p className="text-gray-700 text-lg">
-                From identifying the right partners to tracking every
-                conversion, we ensure full transparency and measurable growth at
-                every stage.
-              </p>
-              <p className="text-gray-700 text-lg">
-                We focus on building affiliate relationships that are long-term,
-                trustworthy, and aligned with your business goals. You’ll never
-                have to worry about shady promotions or low-quality traffic.
-                Instead, we help your brand build reputation, reach, and revenue
-                through trusted digital voices.
-              </p>
-            </div>
-            <div className="bg-white border-l-4 border-[var(--primary-color)] p-8 rounded-2xl shadow">
-              <FaBullseye className="text-4xl text-[var(--primary-color)] mb-4" />
-              <p className="text-gray-800 text-lg font-medium">
-                Our goal: build affiliate programs that are reliable,
-                transparent, and results-driven — always aligned with your ROI.
-              </p>
+          <div className="space-y-12">
+            {/* Two-column layout with image on right */}
+            <div className="grid md:grid-cols-2 gap-12 items-center">
+              {/* Left Text Content */}
+              <div className="space-y-6">
+                <h3 className="text-2xl font-semibold text-[var(--primary-color)]">
+                  Scalable, Transparent and Results-First
+                </h3>
+                <p className="text-gray-700 text-lg">
+                  Affiliate marketing is not a one-size-fits-all approach. Every
+                  brand has a different audience, product, and price point.
+                  That’s why our affiliate marketing services in Delhi are built
+                  on personalization.
+                </p>
+                <p className="text-gray-700 text-lg">
+                  From identifying the right partners to tracking every
+                  conversion, we ensure full transparency and measurable growth
+                  at every stage.
+                </p>
+                <p className="text-gray-700 text-lg">
+                  We focus on building affiliate relationships that are
+                  long-term, trustworthy, and aligned with your business goals.
+                  You’ll never have to worry about shady promotions or
+                  low-quality traffic. Instead, we help your brand build
+                  reputation, reach, and revenue through trusted digital voices.
+                </p>
+              </div>
+
+              {/* Right Image */}
+              <div>
+                <img
+                  src={affiliate}
+                  alt="Affiliate Marketing Services in Delhi"
+                  className="w-full h-[60vh] rounded-xl shadow-lg"
+                />
+              </div>
             </div>
           </div>
 

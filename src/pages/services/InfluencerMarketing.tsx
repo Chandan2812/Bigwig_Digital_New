@@ -2,6 +2,7 @@ import { TypeAnimation } from "react-type-animation";
 import Nav from "../../components/Nav";
 import { Helmet } from "react-helmet";
 import hero from "../../assets/Services hero/Influencer marketing.jpg";
+import influencer from "../../assets/services/15.jpg";
 import OurProcess from "../../components/OurProcess";
 import WhyBigwig from "../../components/WhyBigwig";
 import Footer from "../../components/Footer";
@@ -175,9 +176,9 @@ function InfluencerMarketing() {
           {/* Right Image */}
           <div className="md:w-1/2">
             <img
-              src=""
-              alt="Influencer marketing"
-              className="w-full rounded-lg object-cover"
+              src={influencer}
+              alt="Influencer Marketing Services in Delhi"
+              className="w-full h-[60vh] rounded-lg object-cover"
             />
           </div>
         </div>

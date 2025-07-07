@@ -2,6 +2,7 @@ import { TypeAnimation } from "react-type-animation";
 import Nav from "../../components/Nav";
 import { Helmet } from "react-helmet";
 import hero from "../../assets/Services hero/Video Shot.jpg";
+import videoshoot from "../../assets/services/13.jpg";
 import OurProcess from "../../components/OurProcess";
 import WhyBigwig from "../../components/WhyBigwig";
 import Footer from "../../components/Footer";
@@ -55,7 +56,7 @@ function VideoShoot() {
   return (
     <div>
       <Helmet>
-        <title>Social Media Optimization Services in Delhi</title>
+        <title>Video Shoot Services in Delhi</title>
       </Helmet>
       <Nav />
       <section
@@ -148,24 +149,38 @@ function VideoShoot() {
       <section className="bg-white text-black py-12 space-y-10">
         {/* Section 1 - Introduction */}
         <div className="w-11/12 md:w-5/6 mx-auto space-y-6 text-center md:text-left">
-          <h2 className="text-3xl md:text-4xl font-bold text-[var(--primary-color)] text-center">
-            In today’s digital world, video is no longer just content, it’s
-            communication.
-          </h2>
-          <p className="text-lg leading-relaxed">
-            At BigWig Digital, we help brands turn their ideas into
-            high-quality, engaging video content that grabs attention and
-            delivers results. From promotional videos and social media reels to
-            brand stories and product demos, we offer end-to-end video shoot
-            services in Delhi tailored to your goals.
-          </p>
-          <p className="text-lg leading-relaxed">
-            We blend creativity, storytelling, and strategy to create videos
-            that don’t just look good, they convert. Whether you're a startup
-            launching your first product or an established brand looking to
-            scale visually, we craft video content that tells your story and
-            supports your growth.
-          </p>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
+            {/* Left Content */}
+            <div className="space-y-6">
+              <h2 className="text-3xl  font-bold text-[var(--primary-color)]">
+                In today’s digital world, video is no longer just content, it’s
+                communication.
+              </h2>
+              <p className="text-lg leading-relaxed text-gray-700 dark:text-gray-300">
+                At <strong>BigWig Digital</strong>, we help brands turn their
+                ideas into high-quality, engaging video content that grabs
+                attention and delivers results. From promotional videos and
+                social media reels to brand stories and product demos, we offer
+                end-to-end video shoot services in Delhi tailored to your goals.
+              </p>
+              <p className="text-lg leading-relaxed text-gray-700 dark:text-gray-300">
+                We blend creativity, storytelling, and strategy to create videos
+                that don’t just look good — they convert. Whether you're a
+                startup launching your first product or an established brand
+                looking to scale visually, we craft video content that tells
+                your story and supports your growth.
+              </p>
+            </div>
+
+            {/* Right Image */}
+            <div>
+              <img
+                src={videoshoot} // Replace with your actual image
+                alt="Video Shoot Services in Delhi"
+                className="w-full h-[60vh] rounded-xl shadow-lg object-cover"
+              />
+            </div>
+          </div>
         </div>
 
         <div className="bg-white text-black py-8">

@@ -2,6 +2,7 @@ import { Helmet } from "react-helmet";
 import Nav from "../../components/Nav";
 import { TypeAnimation } from "react-type-animation";
 import hero from "../../assets/Services hero/Social Media Marketing-2.jpg";
+import smm from "../../assets/services/5.jpg";
 import OurProcess from "../../components/OurProcess";
 import WhyBigwig from "../../components/WhyBigwig";
 import Footer from "../../components/Footer";
@@ -123,14 +124,14 @@ function SocialMediaMarketing() {
         </div>
       </section>
 
-      <section className="py-12  space-y-10 text-black dark:text-white">
+      <section className="py-12 space-y-10 text-black dark:text-white">
         {/* Section Heading */}
         <h2 className="text-3xl md:text-4xl font-bold text-center text-[var(--primary-color)]">
           Social Media Marketing Agency in Delhi
         </h2>
 
         {/* Two-column Layout */}
-        <div className="w-11/12 md:w-5/6 grid md:grid-cols-2 gap-10 items-start mx-auto">
+        <div className="w-11/12 md:w-5/6 mx-auto grid md:grid-cols-2 gap-10 items-start">
           {/* Left Content */}
           <div className="space-y-6 text-md leading-relaxed">
             <p>
@@ -153,14 +154,25 @@ function SocialMediaMarketing() {
             <p>
               Whether your goal is brand awareness, lead generation, website
               traffic, app installs, or video views, our expert team crafts
-              data-backed ad strategies that bring measurable results.If you’re
+              data-backed ad strategies that bring measurable results. If you’re
               looking for expert social media marketing services in India,
               BigWig Digital is your go-to partner for growth-focused ad
               solutions.
             </p>
           </div>
 
-          {/* Right Side Box with List */}
+          {/* Right Image */}
+          <div>
+            <img
+              src={smm}
+              alt="Social Media Marketing Agency in Delhi"
+              className="w-full h-[50vh] rounded-xl shadow-lg"
+            />
+          </div>
+        </div>
+
+        {/* Box goes below */}
+        <div className="w-11/12 md:w-5/6 mx-auto">
           <div className="bg-[var(--primary-color)] text-white p-6 md:p-8 rounded-xl shadow space-y-4">
             <h3 className="text-2xl font-semibold">
               Why Paid Social Media Ads Matter More Than Ever

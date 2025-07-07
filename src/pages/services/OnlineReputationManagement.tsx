@@ -2,6 +2,7 @@ import { TypeAnimation } from "react-type-animation";
 import Nav from "../../components/Nav";
 import { Helmet } from "react-helmet";
 import hero from "../../assets/Services hero/online reputation management.jpg";
+import orm from "../../assets/services/16.jpg";
 import OurProcess from "../../components/OurProcess";
 import WhyBigwig from "../../components/WhyBigwig";
 import Footer from "../../components/Footer";
@@ -141,25 +142,22 @@ function OnlineReputationManagement() {
       </section>
 
       <section className="py-12">
-        <div className="w-11/12 md:w-5/6 mx-auto">
-          {/* Section Title */}
-          <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold text-[var(--primary-color)]">
-              Online Reputation Management That Protects What Matters
-            </h2>
-          </div>
-
-          {/* Content Split */}
+        <div className="w-11/12 md:w-5/6 mx-auto space-y-12">
+          {/* Grid Content - Text left, image right */}
           <div className="grid md:grid-cols-2 gap-8 items-center">
-            {/* Left Content */}
+            {/* Left Text Content */}
             <div className="space-y-6 text-gray-800">
+              <h2 className="text-3xl md:text-4xl font-bold text-[var(--primary-color)]">
+                Online Reputation Management That Protects What Matters
+              </h2>
               <p className="text-lg leading-relaxed">
                 Your brand's most significant asset in this digital age is its
                 online reputation. One negative review or outdated article can
-                cost you trust, traffic, and conversions. At BigWig Digital, we
-                offer reliable and strategic ORM services in Delhi to help
-                individuals, professionals, and brands monitor, manage, and
-                improve their online presence across platforms.
+                cost you trust, traffic, and conversions. At{" "}
+                <strong>BigWig Digital</strong>, we offer reliable and strategic
+                ORM services in Delhi to help individuals, professionals, and
+                brands monitor, manage, and improve their online presence across
+                platforms.
               </p>
               <p className="text-lg leading-relaxed">
                 People search before they engage. What shows up on Google,
@@ -171,25 +169,34 @@ function OnlineReputationManagement() {
               </p>
             </div>
 
-            {/* Right Highlighted Box */}
-            <div className="bg-blue-100 text-blue-900 p-8 rounded-3xl shadow-lg border-l-4 border-[var(--primary-color)]">
-              <h4 className="text-xl font-semibold mb-4">
-                Why Online Reputation Management Is Non-Negotiable
-              </h4>
-              <p className="mb-4 leading-relaxed">
-                Every click, comment, or complaint can impact your credibility.
-                Whether it's a negative customer review, outdated press
-                coverage, or a competitor's smear campaign, online reputation
-                issues can arise quickly and spread even faster.
-              </p>
-              <p className="leading-relaxed">
-                Effective ORM is not just about fixing what's broken. It's about
-                building a trustworthy digital profile that reflects your true
-                value. BigWig Digital helps you take charge of your reputation
-                with proactive strategies that protect your name and restore
-                confidence among your customers, partners, and investors.
-              </p>
+            {/* Right Image */}
+            <div>
+              <img
+                src={orm}
+                alt="Online Reputation Management Services in Delhi"
+                className="w-full h-[60vh] rounded-xl shadow-md object-cover"
+              />
             </div>
+          </div>
+
+          {/* Highlighted Box Moved Below */}
+          <div className="bg-blue-100 text-blue-900 p-8 rounded-3xl shadow-lg border-l-4 border-[var(--primary-color)]">
+            <h4 className="text-xl font-semibold mb-4">
+              Why Online Reputation Management Is Non-Negotiable
+            </h4>
+            <p className="mb-4 leading-relaxed">
+              Every click, comment, or complaint can impact your credibility.
+              Whether it's a negative customer review, outdated press coverage,
+              or a competitor's smear campaign, online reputation issues can
+              arise quickly and spread even faster.
+            </p>
+            <p className="leading-relaxed">
+              Effective ORM is not just about fixing what's broken. It's about
+              building a trustworthy digital profile that reflects your true
+              value. BigWig Digital helps you take charge of your reputation
+              with proactive strategies that protect your name and restore
+              confidence among your customers, partners, and investors.
+            </p>
           </div>
         </div>
       </section>

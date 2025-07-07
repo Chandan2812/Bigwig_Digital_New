@@ -6,6 +6,7 @@ import OurProcess from "../../components/OurProcess";
 import WhyBigwig from "../../components/WhyBigwig";
 import Footer from "../../components/Footer";
 import Slider from "react-slick";
+import landing from "../../assets/services/11.jpg";
 import {
   FaGoogle,
   FaFunnelDollar,
@@ -196,8 +197,12 @@ function LandinPageOptimization() {
                 instantly.
               </p>
             </div>
-            <div className="relative h-80 md:h-full bg-gradient-to-br from-blue-100 to-blue-300 rounded-3xl shadow-lg flex items-center justify-center">
-              <img src="" alt="Landing page optimization" />
+            <div className="relative rounded-3xl shadow-lg flex items-center justify-center">
+              <img
+                src={landing}
+                alt="Landing Page Optimization Services in Delhi"
+                className="w-full h-[40vh] rounded-xl shadow-lg"
+              />
             </div>
           </div>
 

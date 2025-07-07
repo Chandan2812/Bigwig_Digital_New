@@ -2,6 +2,7 @@ import { TypeAnimation } from "react-type-animation";
 import Nav from "../../components/Nav";
 import { Helmet } from "react-helmet";
 import hero from "../../assets/Services hero/Public relation.jpg";
+import publicRelation from "../../assets/services/14.jpg";
 import OurProcess from "../../components/OurProcess";
 import WhyBigwig from "../../components/WhyBigwig";
 import Footer from "../../components/Footer";
@@ -219,9 +220,9 @@ function PublicRelation() {
           {/* Right Side Image */}
           <div className="md:w-1/2">
             <img
-              src=""
-              alt="Public Relation Services"
-              className="w-full rounded-lg object-cover"
+              src={publicRelation}
+              alt="Public Relations Services in Delhi"
+              className="w-full h-[50vh] rounded-lg object-cover"
             />
           </div>
         </div>

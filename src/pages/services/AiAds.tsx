@@ -2,6 +2,7 @@ import { TypeAnimation } from "react-type-animation";
 import Nav from "../../components/Nav";
 import { Helmet } from "react-helmet";
 import hero from "../../assets/Services hero/AI And CGI Ads.jpg";
+import ai from "../../assets/services/10.jpg";
 import {
   FaRupeeSign,
   FaCogs,
@@ -148,8 +149,8 @@ function AiAds() {
           {/* Right: Image */}
           <div className="w-full h-[300px] md:h-[400px] rounded-xl overflow-hidden shadow-lg">
             <img
-              src="/your-image-path.jpg" // Replace with your image path
-              alt="CGI Advertisement Production"
+              src={ai} // Replace with your image path
+              alt="CGI Advertising Company in India"
               className="w-full h-full object-cover"
             />
           </div>

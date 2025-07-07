@@ -5,6 +5,7 @@ import OurProcess from "../../components/OurProcess";
 import WhyBigwig from "../../components/WhyBigwig";
 import { Helmet } from "react-helmet";
 import Hero from "../../assets/Services hero/Graphic Design-3.jpg";
+import design from "../../assets/services/9.jpg";
 
 function GraphicDesigning() {
   return (
@@ -132,43 +133,57 @@ function GraphicDesigning() {
             </p>
 
             {/* New Replaced Third Paragraph as Icon List */}
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 py-5 text-left">
-              {[
-                {
-                  icon: "🧩",
-                  title: "Complete Design Solutions for Every Industry",
-                  description:
-                    "From startups to established enterprises, we offer a wide range of graphic design services tailored to suit all business verticals.",
-                },
-                {
-                  icon: "💡",
-                  title: "Creative Experts with Proven Experience",
-                  description:
-                    "Our seasoned design professionals understand what works best for your brand and create visuals that leave a lasting impression.",
-                },
-                {
-                  icon: "🎯",
-                  title: "Impactful Designs That Drive Results",
-                  description:
-                    "We craft eye-catching, functional designs that help you communicate effectively with your audience and promote your offerings globally.",
-                },
-                {
-                  icon: "🛠",
-                  title: "Latest Tools, Limitless Innovation",
-                  description:
-                    "Using cutting-edge graphic design tools and techniques, our passionate team delivers high-quality, trend-forward designs every time.",
-                },
-              ].map((item, idx) => (
-                <div key={idx} className="flex gap-4 items-start">
-                  <div className="text-3xl">{item.icon}</div>
-                  <div>
-                    <h4 className="text-lg font-semibold text-gray-800">
-                      {item.title}
-                    </h4>
-                    <p className="text-sm text-gray-600">{item.description}</p>
+            <div className="grid md:grid-cols-2 gap-10 items-center py-10">
+              {/* Left: Features Grid */}
+              <div className="grid grid-cols-1 gap-6 text-left">
+                {[
+                  {
+                    icon: "🧩",
+                    title: "Complete Design Solutions for Every Industry",
+                    description:
+                      "From startups to established enterprises, we offer a wide range of graphic design services tailored to suit all business verticals.",
+                  },
+                  {
+                    icon: "💡",
+                    title: "Creative Experts with Proven Experience",
+                    description:
+                      "Our seasoned design professionals understand what works best for your brand and create visuals that leave a lasting impression.",
+                  },
+                  {
+                    icon: "🎯",
+                    title: "Impactful Designs That Drive Results",
+                    description:
+                      "We craft eye-catching, functional designs that help you communicate effectively with your audience and promote your offerings globally.",
+                  },
+                  {
+                    icon: "🛠",
+                    title: "Latest Tools, Limitless Innovation",
+                    description:
+                      "Using cutting-edge graphic design tools and techniques, our passionate team delivers high-quality, trend-forward designs every time.",
+                  },
+                ].map((item, idx) => (
+                  <div key={idx} className="flex gap-4 items-start">
+                    <div className="text-3xl">{item.icon}</div>
+                    <div>
+                      <h4 className="text-lg font-semibold text-gray-800">
+                        {item.title}
+                      </h4>
+                      <p className="text-sm text-gray-600">
+                        {item.description}
+                      </p>
+                    </div>
                   </div>
-                </div>
-              ))}
+                ))}
+              </div>
+
+              {/* Right: Image */}
+              <div>
+                <img
+                  src={design}
+                  alt="The Best Graphic Design Agency in Delhi"
+                  className="w-full h-[60vh] rounded-xl shadow-lg"
+                />
+              </div>
             </div>
           </div>
 

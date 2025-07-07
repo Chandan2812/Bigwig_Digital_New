@@ -4,6 +4,7 @@ import Nav from "../../components/Nav";
 import OurProcess from "../../components/OurProcess";
 import WhyBigwig from "../../components/WhyBigwig";
 import hero from "../../assets/Services hero/website.jpg";
+import web from "../../assets/services/1.jpg";
 import {
   BarChart3,
   Code2,
@@ -153,13 +154,13 @@ function Website() {
       </section>
 
       <section className="bg-white dark:bg-black py-12 px-4">
-        <div className="w-11/12 md:w-5/6 mx-auto space-y-8">
+        <div className="w-11/12 md:w-5/6 mx-auto space-y-12">
           {/* Heading */}
           <h2 className="text-3xl md:text-4xl font-semibold text-center text-[var(--primary-color)] mb-6">
             Best Web Development Company in India to Build Your Online Presence
           </h2>
 
-          {/* Grid Layout */}
+          {/* Two-column layout */}
           <div className="grid md:grid-cols-2 gap-10 items-center">
             {/* Left Text Block */}
             <div className="space-y-6 text-gray-700 dark:text-gray-300 text-lg leading-relaxed">
@@ -182,17 +183,26 @@ function Website() {
               </p>
             </div>
 
-            {/* Right Highlight Box */}
-            <div className="bg-[var(--primary-color)] text-white p-8 md:p-10 rounded-2xl shadow-2xl space-y-6">
-              <h3 className="text-2xl font-bold mb-4">Why Clients Choose Us</h3>
-              <ul className="space-y-4 list-disc text-base">
-                <li>High-quality, mobile-responsive websites.</li>
-                <li>Cost-effective and easy-to-manage web solutions.</li>
-                <li>Attractive, conversion-focused landing pages.</li>
-                <li>SEO-friendly website structures.</li>
-                <li>More than 900 successful projects delivered.</li>
-              </ul>
+            {/* Right Image Block */}
+            <div>
+              <img
+                src={web}
+                alt="Best Web Development Company in India"
+                className="w-full h-[50vh] rounded-xl shadow-lg"
+              />
             </div>
+          </div>
+
+          {/* Highlight Box Below */}
+          <div className="bg-[var(--primary-color)] text-white p-8 md:p-10 rounded-2xl shadow-2xl space-y-6">
+            <h3 className="text-2xl font-bold mb-4">Why Clients Choose Us</h3>
+            <ul className="grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-4 list-disc list-inside text-base">
+              <li>High-quality, mobile-responsive websites.</li>
+              <li>Cost-effective and easy-to-manage web solutions.</li>
+              <li>Attractive, conversion-focused landing pages.</li>
+              <li>SEO-friendly website structures.</li>
+              <li>More than 900 successful projects delivered.</li>
+            </ul>
           </div>
         </div>
       </section>

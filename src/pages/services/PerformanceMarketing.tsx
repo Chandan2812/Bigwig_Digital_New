@@ -4,6 +4,7 @@ import Nav from "../../components/Nav";
 import OurProcess from "../../components/OurProcess";
 import WhyBigwig from "../../components/WhyBigwig";
 import hero from "../../assets/Services hero/PPC-1.jpg";
+import ppc from "../../assets/services/7.jpg";
 // import ppc from "../../assets/Services hero/PPC.jpg";
 import { Helmet } from "react-helmet";
 import Slider from "react-slick";
@@ -216,33 +217,46 @@ function PerformanceMarketing() {
       <section className="bg-white text-black dark:text-white py-12">
         <div className="w-11/12 md:w-5/6 mx-auto space-y-20">
           {/* Intro */}
-          <div className="text-center space-y-6">
-            <h2 className="text-3xl md:text-4xl font-bold text-[var(--primary-color)]">
-              We are Delhi NCR's Top PPC Company
-            </h2>
-            <p className="text-lg mx-auto leading-relaxed text-justify md:text-start">
-              We are Delhi NCR's top PPC company, having been tried and tested.
-              Our PPC specialists constantly work to keep you one step ahead of
-              your rivals by offering top-notch PPC services. With complete
-              transparency, select cost-effective PPC plans specifically
-              designed for Google Ads services, such as Banner Ads, Search Ads,
-              App Installation Ads, YouTube Ads, Lead Generation Ads, Shopping
-              Ads, Campaign Quality Score Impro vement & Modification, Landing
-              Page Design, etc.
-            </p>
-            <p className="text-lg mx-auto leading-relaxed text-justify md:text-start">
-              We are a team of extremely driven, committed, and skilled
-              businesspeople with years of expertise planning and carrying out
-              digital marketing campaigns for a range of businesses and niches.
-              The success of our clientele is our motto.
-            </p>
-            <p className="text-lg  mx-auto leading-relaxed text-justify md:text-start">
-              We firmly think that success comes from smart work that makes a
-              significant difference rather than just hard work. For this
-              reason, we constantly advise our clients to concentrate on their
-              strengths while we take care of their digital marketing
-              requirements.
-            </p>
+
+          <div className="grid md:grid-cols-2 gap-10 items-center">
+            {/* Left Content */}
+            <div className="space-y-6 text-center md:text-left">
+              <h2 className="text-3xl md:text-4xl font-bold text-[var(--primary-color)]">
+                We are Delhi NCR's Top PPC Company
+              </h2>
+              <p className="text-lg leading-relaxed text-justify md:text-left">
+                We are Delhi NCR's top PPC company, having been tried and
+                tested. Our PPC specialists constantly work to keep you one step
+                ahead of your rivals by offering top-notch PPC services. With
+                complete transparency, select cost-effective PPC plans
+                specifically designed for Google Ads services, such as Banner
+                Ads, Search Ads, App Installation Ads, YouTube Ads, Lead
+                Generation Ads, Shopping Ads, Campaign Quality Score Improvement
+                & Modification, Landing Page Design, etc.
+              </p>
+              <p className="text-lg leading-relaxed text-justify md:text-left">
+                We are a team of extremely driven, committed, and skilled
+                businesspeople with years of expertise planning and carrying out
+                digital marketing campaigns for a range of businesses and
+                niches. The success of our clientele is our motto.
+              </p>
+              <p className="text-lg leading-relaxed text-justify md:text-left">
+                We firmly think that success comes from smart work that makes a
+                significant difference rather than just hard work. For this
+                reason, we constantly advise our clients to concentrate on their
+                strengths while we take care of their digital marketing
+                requirements.
+              </p>
+            </div>
+
+            {/* Right Image */}
+            <div>
+              <img
+                src={ppc}
+                alt="Top PPC Company in India"
+                className="w-full h-auto rounded-xl shadow-lg"
+              />
+            </div>
           </div>
 
           {/* Why Choose Us */}

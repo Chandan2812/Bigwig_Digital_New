@@ -1,6 +1,7 @@
 import { Helmet } from "react-helmet";
 import Nav from "../../components/Nav";
 import hero from "../../assets/Services hero/SMO.jpg";
+import smo from "../../assets/services/4.jpg";
 import { TypeAnimation } from "react-type-animation";
 import OurProcess from "../../components/OurProcess";
 import WhyBigwig from "../../components/WhyBigwig";
@@ -191,10 +192,7 @@ function SocialMediaOptimization() {
               brand makes a lasting impression by keeping your profiles
               consistent, discoverable, and audience-friendly.
             </p>
-          </div>
 
-          {/* Right */}
-          <div className="space-y-4">
             <h3 className="text-xl font-semibold text-[var(--primary-color)]">
               Optimized Profiles = Searchable Brands
             </h3>
@@ -204,6 +202,15 @@ function SocialMediaOptimization() {
               builds long-term credibility. It’s not just about being present,
               it’s about being noticed, followed, and remembered.
             </p>
+          </div>
+
+          {/* Right */}
+          <div>
+            <img
+              src={smo}
+              alt="Social Media Optimization Services in Delhi"
+              className="w-full h-[40vh] rounded-xl shadow-lg"
+            />
           </div>
         </div>
       </div>
