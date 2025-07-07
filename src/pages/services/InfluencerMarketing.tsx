@@ -159,10 +159,16 @@ function InfluencerMarketing() {
               ads. That’s where influencer marketing steps in as one of the most
               powerful and authentic brand-building tools. At{" "}
               <strong>BigWig Digital</strong>, we help you harness the power of
-              voices your audience already trusts. Our customized influencer
-              marketing services in Delhi connect your brand with the right
-              content creators, storytellers, and digital personalities to
-              expand your reach, boost credibility, and drive real engagement.
+              voices your audience already trusts. Our customized{" "}
+              <strong>
+                <a href="https://www.bigwigdigital.in/">
+                  {" "}
+                  Influencer Marketing Services in Delhi
+                </a>
+              </strong>{" "}
+              connect your brand with the right content creators, storytellers,
+              and digital personalities to expand your reach, boost credibility,
+              and drive real engagement.
             </p>
             <p className="text-gray-700 text-base leading-relaxed">
               Whether you're targeting Gen Z on Instagram, professionals on
@@ -288,9 +294,14 @@ function InfluencerMarketing() {
               We help you build campaigns that feel natural, spark conversation,
               and inspire action. Each piece of content is crafted to engage
               authentically while staying true to your marketing goals. As a
-              trusted influencer marketing agency in India, we understand how to
-              deliver influencer content that performs without feeling like an
-              advertisement.
+              trusted{" "}
+              <strong>
+                <a href="https://www.bigwigdigital.in/">
+                  Influencer Marketing Agency in India,
+                </a>
+              </strong>{" "}
+              we understand how to deliver influencer content that performs
+              without feeling like an advertisement.
             </p>
           </div>
 

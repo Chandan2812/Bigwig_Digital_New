@@ -180,13 +180,18 @@ function Seo() {
             Drive Organic Traffic with the Best SEO Company in India
           </h2>
           <p className="text-lg text-gray-600 dark:text-gray-300 text-justify">
-            We are a <strong>Top SEO Agency in Delhi</strong>, offering
-            companies the greatest SEO solutions. BigWig Digital has more than
-            10 years of extensive expertise and has assisted numerous companies
-            in Delhi, India, and other countries in achieving their online
-            marketing objectives and improving their search engine rankings.
-            Managing more than 10,000 campaigns with success and keeping a 95%
-            client retention rate.
+            We are a{" "}
+            <strong>
+              <a href="https://www.bigwigdigital.in/">
+                Top SEO Agency in Delhi
+              </a>
+            </strong>
+            , offering companies the greatest SEO solutions. BigWig Digital has
+            more than 10 years of extensive expertise and has assisted numerous
+            companies in Delhi, India, and other countries in achieving their
+            online marketing objectives and improving their search engine
+            rankings. Managing more than 10,000 campaigns with success and
+            keeping a 95% client retention rate.
           </p>
         </div>
 

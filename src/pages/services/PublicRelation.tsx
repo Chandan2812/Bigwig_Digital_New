@@ -195,9 +195,15 @@ function PublicRelation() {
               In today’s fast-paced digital environment, perception is
               everything. At{" "}
               <span className="font-semibold">BigWig Digital</span>, we help you
-              control the narrative with high-impact public relation services in
-              Delhi that position your brand where it matters most, in front of
-              the right people, at the right time.
+              control the narrative with high-impact{" "}
+              <strong>
+                <a href="https://www.bigwigdigital.in/">
+                  {" "}
+                  Public Relation Services in Delhi
+                </a>
+              </strong>{" "}
+              that position your brand where it matters most, in front of the
+              right people, at the right time.
             </p>
             <p className="text-gray-700">
               Whether you’re a startup making your debut, a brand handling a
@@ -207,13 +213,10 @@ function PublicRelation() {
             </p>
             <p className="text-gray-700">
               We go beyond press releases and mentions. Our approach is
-              strategic and focused on{" "}
-              <span className="font-semibold">
-                reputation, relevance, and reach
-              </span>
-              . As a trusted public relation agency in Delhi, we bridge the gap
-              between your brand and the media, influencers, and industry
-              leaders who shape public opinion.
+              strategic and focused on reputation, relevance, and reach . As a
+              trusted public relation agency in Delhi, we bridge the gap between
+              your brand and the media, influencers, and industry leaders who
+              shape public opinion.
             </p>
           </div>
 
@@ -336,8 +339,13 @@ function PublicRelation() {
               With our expertise in digital marketing and content strategy, we
               ensure your PR campaign supports your SEO, content marketing, and
               social media efforts, making <strong>BigWig Digital</strong> a
-              truly integrated public relation agency in Delhi that understands
-              the full picture of brand growth.
+              truly integrated{" "}
+              <span className="italic">
+                <a href="https://www.bigwigdigital.in/">
+                  Public Relation Agency in Delhi
+                </a>
+              </span>{" "}
+              that understands the full picture of brand growth.
             </p>
           </div>
 

@@ -163,9 +163,15 @@ function SocialMediaOptimization() {
           <p className="text-lg text-gray-700  mx-auto md:mx-0">
             Your social media profiles are more than just digital pages, they're
             your brand’s voice, vibe, and visibility. At BigWig Digital, a
-            leading SMO agency in Delhi, we help businesses grow organically
-            across platforms like Instagram, Facebook, LinkedIn, Twitter, and
-            more with strategic Social Media Optimization services.
+            leading{" "}
+            <strong>
+              <a href="https://www.bigwigdigital.in/">
+                Social Media Optimization agency in Delhi
+              </a>
+            </strong>
+            , we help businesses grow organically across platforms like
+            Instagram, Facebook, LinkedIn, Twitter, and more with strategic
+            Social Media Optimization services.
           </p>
         </div>
 

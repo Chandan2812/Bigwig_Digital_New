@@ -143,20 +143,32 @@ function SocialMediaMarketing() {
             </p>
 
             <p>
-              At BigWig Digital, we go beyond likes and followers, we deliver
-              performance-driven social media ad campaigns designed to get your
-              brand seen, clicked, and remembered. As a trusted social media
-              marketing agency in Delhi, we specialize in creating
-              high-converting paid campaigns across today’s most powerful
-              platforms.
+              <strong>At BigWig Digital</strong>, we go beyond likes and
+              followers, we deliver performance-driven social media ad campaigns
+              designed to get your brand seen, clicked, and remembered. As a
+              trusted{" "}
+              <strong>
+                {" "}
+                <a href="https://www.bigwigdigital.in/">
+                  social media marketing agency in Delhi
+                </a>
+              </strong>
+              , we specialize in creating high-converting paid campaigns across
+              today’s most powerful platforms.
             </p>
 
             <p>
               Whether your goal is brand awareness, lead generation, website
               traffic, app installs, or video views, our expert team crafts
               data-backed ad strategies that bring measurable results. If you’re
-              looking for expert social media marketing services in India,
-              BigWig Digital is your go-to partner for growth-focused ad
+              looking for expert{" "}
+              <strong>
+                <a href="https://www.bigwigdigital.in/">
+                  {" "}
+                  social media marketing services in India
+                </a>
+              </strong>
+              , BigWig Digital is your go-to partner for growth-focused ad
               solutions.
             </p>
           </div>
@@ -166,7 +178,7 @@ function SocialMediaMarketing() {
             <img
               src={smm}
               alt="Social Media Marketing Agency in Delhi"
-              className="w-full h-[50vh] rounded-xl shadow-lg"
+              className="w-full h-[60vh] rounded-xl shadow-lg"
             />
           </div>
         </div>
@@ -192,7 +204,6 @@ function SocialMediaMarketing() {
               </li>
               <li>
                 To get the most out of every rupee you spend, our results-driven
-                social media marketing agency in India combines audience
                 segmentation, ad creatives, copywriting, analytics, and A/B
                 testing.
               </li>

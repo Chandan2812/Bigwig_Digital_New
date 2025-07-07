@@ -168,18 +168,24 @@ function Website() {
                 Words like <strong>“web design”</strong> and{" "}
                 <strong>“web development”</strong> might sound overwhelming, and
                 that’s completely okay! Not everyone is an expert in creating
-                professional websites — that’s where{" "}
-                <span className="text-[var(--primary-color)] font-semibold">
-                  BigWig Digital
-                </span>{" "}
-                steps in.
+                professional websites — that’s where BigWig Digital steps in.
               </p>
               <p>
-                As a reputable web design company in India, we’re here to guide,
-                support, and help you build a powerful online presence. With
-                years of practical experience and a results-driven mindset, we
-                are recognized as one of the top web development companies in
-                Delhi.
+                As a reputable{" "}
+                <strong>
+                  <a href="https://www.bigwigdigital.in/">
+                    web design company in India
+                  </a>
+                </strong>
+                , we’re here to guide, support, and help you build a powerful
+                online presence. With years of practical experience and a
+                results-driven mindset, we are recognized as one of the{" "}
+                <strong>
+                  <a href="https://www.bigwigdigital.in/">
+                    {" "}
+                    top web development companies in Delhi.{" "}
+                  </a>
+                </strong>
               </p>
             </div>
 

@@ -169,7 +169,12 @@ function EmailMarketing() {
 
           <div className="border text-gray-800 p-6 rounded-2xl text-lg font-medium">
             Whether you're a startup, a growing D2C brand, or an enterprise
-            business, or from any country our email marketing services in India
+            business, or from any country our{" "}
+            <span className="italic">
+              <a href="https://www.bigwigdigital.in/">
+                Email Marketing Services in India{" "}
+              </a>
+            </span>
             are crafted to help you deliver strategically, sell more, advertise
             more and build relationships that actually stays.
           </div>
@@ -273,15 +278,20 @@ function EmailMarketing() {
             Why Brands Trust Email Marketing Services in India
           </h2>
           <p className="text-lg text-gray-700 dark:text-gray-300">
-            Brands across industries are increasingly relying on email marketing
-            services in India for one simple reason, it works. With high ROI,
+            Brands across industries are increasingly relying on Email Marketing
+            Services in India for one simple reason, it works. With high ROI,
             direct reach, and measurable results, email remains one of the most
             effective digital marketing tools.
           </p>
           <p className="text-lg text-gray-700 dark:text-gray-300">
-            At <strong>BigWig Digital</strong>, a trusted email marketing agency
-            in Delhi, we build meaningful relationships through strategic,
-            personalized, and conversion-focused email campaigns.
+            At <strong>BigWig Digital</strong>, a trusted{" "}
+            <strong>
+              <a href="https://www.bigwigdigital.in/">
+                Email Marketing Agency in Delhi
+              </a>
+            </strong>
+            , we build meaningful relationships through strategic, personalized,
+            and conversion-focused email campaigns.
           </p>
         </div>
 

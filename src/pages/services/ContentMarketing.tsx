@@ -189,11 +189,16 @@ function ContentMarketing() {
               </h2>
               <p className="text-lg text-gray-600 text-justify md:text-left">
                 Content is now the foundation of your entire marketing plan and
-                is no longer optional in today's digital-first society. We as
-                Delhi's leading content marketing firm, BigWig Digital, do more
-                than just create content. We create digital experiences that
-                engage your audience directly, improve your search engine
-                rankings, and convert infrequent readers into devoted clients.
+                is no longer optional in today's digital-first society. We as{" "}
+                <strong>
+                  <a href="https://www.bigwigdigital.in/">
+                    Delhi's leading content marketing firm
+                  </a>
+                </strong>
+                , BigWig Digital, do more than just create content. We create
+                digital experiences that engage your audience directly, improve
+                your search engine rankings, and convert infrequent readers into
+                devoted clients.
               </p>
               <p className="text-lg text-gray-600 text-justify md:text-left">
                 We provide informational, motivating, and influencing content,
@@ -213,7 +218,7 @@ function ContentMarketing() {
               <img
                 src={content}
                 alt="Content Marketing Services in Delhi"
-                className="w-full h-auto rounded-xl shadow-lg"
+                className="w-full h-[70vh] rounded-xl shadow-lg"
               />
             </div>
           </div>
@@ -227,12 +232,6 @@ function ContentMarketing() {
           </h2>
 
           <p className="text-lg text-gray-600 text-justify">
-            <strong>
-              Your potential customer is searching online. Are you showing up?
-            </strong>
-          </p>
-
-          <p className="text-lg text-gray-600 text-justify">
             Content marketing is more than writing; it’s about building
             authority, trust, and visibility in a crowded digital space. Done
             right, it turns your website into a lead-generating machine, your
@@ -241,9 +240,13 @@ function ContentMarketing() {
           </p>
 
           <p className="text-lg text-gray-600 text-justify">
-            With our experience as a reliable content marketing company in
-            India, we understand that effective content needs to do three
-            things:
+            With our experience as a reliable{" "}
+            <strong>
+              <a href="https://www.bigwigdigital.in/">
+                content marketing company in India
+              </a>
+            </strong>
+            , we understand that effective content needs to do three things:
           </p>
 
           {/* Mobile: Slider */}
@@ -415,8 +418,13 @@ function ContentMarketing() {
               strategic, scalable, and search-ready. <br />
               <br />
               Whether you're a startup in Delhi or a national brand in India,
-              our content marketing services are designed to fuel your growth
-              one word at a time.
+              our{" "}
+              <strong>
+                <a href="https://www.bigwigdigital.in/">
+                  content marketing services
+                </a>
+              </strong>{" "}
+              are designed to fuel your growth one word at a time.
             </p>
           </div>
         </div>

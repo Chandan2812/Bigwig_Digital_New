@@ -302,8 +302,14 @@ function AffiliateMarketing() {
                 <p className="text-gray-700 text-lg">
                   Affiliate marketing is not a one-size-fits-all approach. Every
                   brand has a different audience, product, and price point.
-                  That’s why our affiliate marketing services in Delhi are built
-                  on personalization.
+                  That’s why our{" "}
+                  <strong>
+                    <a href="https://www.bigwigdigital.in/">
+                      {" "}
+                      Affiliate Marketing Services in Delhi
+                    </a>
+                  </strong>{" "}
+                  are built on personalization.
                 </p>
                 <p className="text-gray-700 text-lg">
                   From identifying the right partners to tracking every
@@ -337,10 +343,16 @@ function AffiliateMarketing() {
             </h3>
             <p className="text-lg  mx-auto">
               When you work with BigWig Digital, you're choosing an agency that
-              understands how to blend strategy with performance. As a top
-              affiliate marketing company in Delhi, we use real-time tracking
-              tools, smart campaign planning, and deep industry experience to
-              build affiliate programs that actually work.
+              understands how to blend strategy with performance. As{" "}
+              <span className="italic">
+                <a href="https://www.bigwigdigital.in/">
+                  {" "}
+                  A Top Affiliate Marketing Company in Delhi,
+                </a>
+              </span>{" "}
+              we use real-time tracking tools, smart campaign planning, and deep
+              industry experience to build affiliate programs that actually
+              work.
             </p>
             <p className="text-lg max-w-4xl mx-auto">
               Our focus is always on driving qualified traffic, high intent
@@ -386,16 +398,14 @@ function AffiliateMarketing() {
           </div>
 
           {/* Desktop Grid View */}
-          <div className="hidden sm:grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="hidden sm:grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
             {benefits.map((item, idx) => (
               <div
                 key={idx}
                 className="bg-gray-50 hover:bg-gray-100 transition-all duration-300 p-6 rounded-xl shadow-sm border-l-4 border-[var(--primary-color)]"
               >
                 <div className="flex items-center gap-4 mb-4">
-                  <div className="bg-white p-3 rounded-full shadow">
-                    {item.icon}
-                  </div>
+                  <div>{item.icon}</div>
                   <h4 className="text-lg font-semibold text-gray-900">
                     {item.title}
                   </h4>

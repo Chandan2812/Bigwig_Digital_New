@@ -138,7 +138,10 @@ function AiAds() {
               allow us to create outstanding visual storytelling in Delhi.
             </p>
             <p className="text-lg leading-relaxed">
-              With their eye-catching, captivating campaigns, CGI ads in India
+              With their eye-catching, captivating campaigns,{" "}
+              <strong>
+                <a href="https://www.bigwigdigital.in/">CGI ads in India </a>
+              </strong>
               are revolutionizing digital marketing. By utilizing the limitless
               possibilities of digital creation, brands are embracing CGI ads to
               deliver impactful, visually stunning, and highly engaging reel

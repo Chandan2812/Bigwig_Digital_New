@@ -71,7 +71,6 @@ function OnlineReputationManagement() {
             <p
               className="text-2xl md:text-4xl font-semibold text-[#4e6cba]"
               style={{
-                textShadow: "0 2px 6px rgba(0,0,0,0.6)",
                 letterSpacing: "0.5px",
               }}
             >
@@ -270,9 +269,14 @@ function OnlineReputationManagement() {
               <p className="text-gray-700 text-sm leading-relaxed">
                 From small businesses to enterprise brands, our ORM services are
                 tailored to handle both proactive brand building and reactive
-                damage control. As a dependable ORM agency in Delhi, we combine
-                deep digital expertise with powerful tools to monitor, repair,
-                and enhance your digital reputation.
+                damage control. As a dependable{" "}
+                <strong>
+                  <a href="https://www.bigwigdigital.in/">
+                    ORM Agency in Delhi,
+                  </a>
+                </strong>{" "}
+                we combine deep digital expertise with powerful tools to
+                monitor, repair, and enhance your digital reputation.
               </p>
             </div>
 
@@ -290,8 +294,13 @@ function OnlineReputationManagement() {
                 markets, your online image can influence major decisions. At
                 BigWig Digital, we help you shape a digital narrative that
                 supports growth and opens doors to new opportunities. As a
-                professional ORM agency in India, we ensure your reputation
-                works as an asset, not a liability.
+                professional{" "}
+                <strong>
+                  <a href="https://www.bigwigdigital.in/">
+                    ORM Agency in India,
+                  </a>
+                </strong>{" "}
+                we ensure your reputation works as an asset, not a liability.
               </p>
             </div>
 

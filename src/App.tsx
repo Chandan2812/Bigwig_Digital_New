@@ -33,6 +33,7 @@ import Blogs from "./pages/Blogs";
 import AdminLayout from "./pages/admin/AdminLayout";
 import AdminBlog from "./pages/admin/AdminBlogs";
 import BlogDetails from "./pages/BlogDetails";
+import NotFound from "./pages/NotFound";
 
 export default function App() {
   return (
@@ -97,6 +98,7 @@ export default function App() {
         <Route path="/Contact" element={<ContactPage />} />
         <Route path="/privacy-policy" element={<PrivacyPolicy />} />
         <Route path="/terms-of-use" element={<TermsOfUse />} />
+        <Route path="*" element={<NotFound />} />
         {/* <Route path="/social-media-management" element={<SMM />} />
         <Route path="/search-engine-optimization" element={<Seo />} />
         <Route

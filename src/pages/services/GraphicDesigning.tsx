@@ -110,7 +110,12 @@ function GraphicDesigning() {
               enterprises, and in order to transform their concepts into
               eye-catching visual experiences, they want a graphic design firm
               that is very imaginative, committed, and hardworking. It has
-              established itself as one of Delhi's top graphic design firms
+              established itself as one of{" "}
+              <strong>
+                <a href="https://www.bigwigdigital.in/">
+                  Delhi's top graphic design firms
+                </a>
+              </strong>{" "}
               thanks to Creative Orion. Whether you are from a local Delhi
               business or the fashion sector, or you are a start-up or
               established brand, we offer graphic design services to everyone.
@@ -124,12 +129,18 @@ function GraphicDesigning() {
               the maxim that "great design leads to great businesses," our team
               of expert graphic designers provides top-notch design support for
               all of your needs, including packaging, adverts, logos, and more.
-              As a graphic design company in Delhi, we offer the best possible
-              design services by utilizing the newest, most advanced software,
-              the creative abilities of our designers, and our knowledge of
-              every industry with essential resources. BigWig Digital provides
-              web design services to customers in India, the United Arab
-              Emirates, New Zealand, and Australia.
+              As a{" "}
+              <span className="italic">
+                <a href="https://www.bigwigdigital.in/">
+                  Graphic Design Company in Delhi
+                </a>
+              </span>{" "}
+              , we offer the best possible design services by utilizing the
+              newest, most advanced software, the creative abilities of our
+              designers, and our knowledge of every industry with essential
+              resources. BigWig Digital provides web design services to
+              customers in India, the United Arab Emirates, New Zealand, and
+              Australia.
             </p>
 
             {/* New Replaced Third Paragraph as Icon List */}
@@ -243,12 +254,16 @@ function GraphicDesigning() {
               in achieving exceptional brand and commercial visibility. The best
               and most well-known type of advertising is branding, and our
               design makes a strong statement. Any kind of design can be created
-              and curated by BigWig Digital, a top graphic design firm in Delhi
-              NCR, India, the United Arab Emirates, New Zealand, and Australia.
-              All you have to do is present us with your idea, and we will do
-              everything in our power to meet your expectations by providing
-              unmatched graphic design services in a predetermined amount of
-              time.
+              and curated by BigWig Digital, A{" "}
+              <strong>
+                <a href="https://www.bigwigdigital.in/">
+                  Top Graphic Design Firm in Delhi NCR, India
+                </a>
+              </strong>
+              , United Arab Emirates, New Zealand, and Australia. All you have
+              to do is present us with your idea, and we will do everything in
+              our power to meet your expectations by providing unmatched graphic
+              design services in a predetermined amount of time.
             </p>
           </div>
         </div>

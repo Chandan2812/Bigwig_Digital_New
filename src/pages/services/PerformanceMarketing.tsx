@@ -222,17 +222,23 @@ function PerformanceMarketing() {
             {/* Left Content */}
             <div className="space-y-6 text-center md:text-left">
               <h2 className="text-3xl md:text-4xl font-bold text-[var(--primary-color)]">
-                We are Delhi NCR's Top PPC Company
+                Top PPC Company in Delhi, India
               </h2>
               <p className="text-lg leading-relaxed text-justify md:text-left">
-                We are Delhi NCR's top PPC company, having been tried and
-                tested. Our PPC specialists constantly work to keep you one step
-                ahead of your rivals by offering top-notch PPC services. With
-                complete transparency, select cost-effective PPC plans
-                specifically designed for Google Ads services, such as Banner
-                Ads, Search Ads, App Installation Ads, YouTube Ads, Lead
-                Generation Ads, Shopping Ads, Campaign Quality Score Improvement
-                & Modification, Landing Page Design, etc.
+                We are{" "}
+                <strong>
+                  <a href="https://www.bigwigdigital.in/">
+                    {" "}
+                    Delhi NCR's top PPC company
+                  </a>
+                </strong>
+                , having been tried and tested. Our PPC specialists constantly
+                work to keep you one step ahead of your rivals by offering
+                top-notch PPC services. With complete transparency, select
+                cost-effective PPC plans specifically designed for Google Ads
+                services, such as Banner Ads, Search Ads, App Installation Ads,
+                YouTube Ads, Lead Generation Ads, Shopping Ads, Campaign Quality
+                Score Improvement & Modification, Landing Page Design, etc.
               </p>
               <p className="text-lg leading-relaxed text-justify md:text-left">
                 We are a team of extremely driven, committed, and skilled

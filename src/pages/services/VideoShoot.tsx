@@ -161,7 +161,14 @@ function VideoShoot() {
                 ideas into high-quality, engaging video content that grabs
                 attention and delivers results. From promotional videos and
                 social media reels to brand stories and product demos, we offer
-                end-to-end video shoot services in Delhi tailored to your goals.
+                end-to-end{" "}
+                <strong>
+                  <a href="https://www.bigwigdigital.in/">
+                    {" "}
+                    Video Shoot Services in Delhi
+                  </a>
+                </strong>{" "}
+                tailored to your goals.
               </p>
               <p className="text-lg leading-relaxed text-gray-700 dark:text-gray-300">
                 We blend creativity, storytelling, and strategy to create videos
@@ -353,10 +360,16 @@ function VideoShoot() {
 
           {/* Main Paragraph */}
           <p className="max-w-3xl mx-auto text-lg leading-relaxed">
-            If you’re looking for professional, impactful video shoot services
-            in Delhi, BigWig Digital is your creative partner. We help you bring
-            your ideas to life on screen, connect with your audience
-            emotionally, and convert views into value.
+            If you’re looking for professional, impactful{" "}
+            <span className="italic">
+              <a href="https://www.bigwigdigital.in/">
+                {" "}
+                Video Shoot Services in Delhi
+              </a>
+            </span>
+            , BigWig Digital is your creative partner. We help you bring your
+            ideas to life on screen, connect with your audience emotionally, and
+            convert views into value.
           </p>
 
           {/* Closing Line */}
