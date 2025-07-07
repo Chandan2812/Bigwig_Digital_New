@@ -1,7 +1,7 @@
 import { TypeAnimation } from "react-type-animation";
 import Nav from "../../components/Nav";
 import { Helmet } from "react-helmet";
-import hero from "../../assets/Services hero/PPC-1.jpg";
+import hero from "../../assets/Services hero/AI And CGI Ads.jpg";
 import {
   FaRupeeSign,
   FaCogs,

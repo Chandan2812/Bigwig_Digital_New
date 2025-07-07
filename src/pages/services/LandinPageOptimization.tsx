@@ -1,7 +1,7 @@
 import { TypeAnimation } from "react-type-animation";
 import Nav from "../../components/Nav";
 import { Helmet } from "react-helmet";
-import hero from "../../assets/Services hero/PPC-1.jpg";
+import hero from "../../assets/Services hero/Landing Page.jpg";
 import OurProcess from "../../components/OurProcess";
 import WhyBigwig from "../../components/WhyBigwig";
 import Footer from "../../components/Footer";
